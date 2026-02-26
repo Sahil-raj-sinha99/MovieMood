@@ -39,11 +39,13 @@ with col2:
     st.image("images/logo.jpg")
 
 """
-We are a group of grad students at UC Berkeley in the Master of Information and Data Science (MIDS) program. 
+Sahil Raj Sinha is an aspiring Artificial Intelligence and Machine Learning professional with a strong foundation in Computer Science and Data Analytics.
 
-MovieMood was founded as part of our capstone class, where we had to develop a data science application, of our choice, from the ground up. 
+He is passionate about building intelligent, data-driven applications that combine analytical precision with user-focused design. His expertise includes machine learning model development, data preprocessing, recommendation systems, and interactive web deployment using Streamlit.
 
-Our team has a wide/diverse background ranging from data engineering / science to software engineering and UX design. 
+Through projects like MovieMood, Sahil demonstrates his ability to design, develop, and deploy end-to-end AI solutions that solve real-world problems efficiently and effectively.
+
+He is committed to continuous learning, innovation, and applying advanced technologies to create scalable and impactful software solutions.
 """
 
 st.write(f'<br><br>',unsafe_allow_html=True)
@@ -51,15 +53,11 @@ st.write(f'<br><br>',unsafe_allow_html=True)
 col1,col2,col3,col4,col5=st.columns(5)
 cols=[col1,col2,col3,col4,col5]
 
-member_names = ["Neta Tartakovsky", "Sumedh Shah", "Josie Ruggieri", "Neil Prabhu", "Will Dudek"]
-member_photos = ['Neta.jpeg', 'Sumedh.jpeg', 'Josie.jpeg', 'Neil.jpeg', 'Will.jpeg']
-member_links = ['https://www.linkedin.com/in/neta-tartakovsky/',
-                'https://www.linkedin.com/in/sumedhshah/',
-                'https://www.linkedin.com/in/josefina-ruggieri-653050156/',
-                'https://www.linkedin.com/in/neil-prabhu-9413b1ba/',
-                'https://www.linkedin.com/in/will-dudek/']
+member_names = ["Sahil Raj Sinha"]
+member_photos = ['sahil.jpeg']
+member_links = ['https://www.linkedin.com/in/sahil-raj-sinha-43708626a']
 
-for i in range(0,5):    
+for i in range(0,1):    
     with cols[i]:
         st.image('images/'+member_photos[i], use_column_width="always")
         st.write(f' <p style="font-size: 1.1rem;font-weight: 600;"> {member_names[i]} </p>',unsafe_allow_html=True)
